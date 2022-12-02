@@ -281,7 +281,9 @@ function AddEventForm({height, width}) {
                 
             </Flex>
             <div class="button-container">
-                <input class="submit-button" type='submit' value='Post Event' onClick={onSubmit}/>
+                <Link to='/'>
+                    <input class="submit-button" type='submit' value='Post Event' onClick={onSubmit}/>
+                </Link>
                 
                 <Link to='/'>
                     <div class="back-button"> Go Back </div>
