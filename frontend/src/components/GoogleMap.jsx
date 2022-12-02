@@ -66,7 +66,7 @@ function GMap({height, width, setEvent, setActiveBoxData}){
             lng: e.latLng.lng()
         }
         state.recentClickPos = pos
-        setState(state)
+        setState(JSON.parse(JSON.stringify(state)))
 
     }
 
@@ -86,6 +86,7 @@ function GMap({height, width, setEvent, setActiveBoxData}){
             <MarkerF position={{lat: event.lat, lng:event.lng}} onMouseOver={(e)=>(setEventAndId(event, e))} onMouseOut={()=> mouseOut()}>
             </MarkerF>
         ))}
+        <MarkerF position={{lat:state.recentClickPos.lat, lng:state.recentClickPos.lng}} opacity='10'></MarkerF>
       </GoogleMap>
     </LoadScript>
   )      

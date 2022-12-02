@@ -67,7 +67,7 @@ const events = [
     //For eventCreation (event ID is simply array index)
     nextId: 0,
     //The following are for marker logic
-    recentClickPos: null,
+    recentClickPos: {lat:100, lng:100},
     infoBoxId:null,
     markerEvent:null,
     //id of the event to be shown on <EventData />
