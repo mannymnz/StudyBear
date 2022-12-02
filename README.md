@@ -1,4 +1,5 @@
 STUDY BEAR
+
 A website designd to help Berkeley Students find study groups at any time.
 
 Figma Design:
