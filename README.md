@@ -1,5 +1,7 @@
 STUDY BEAR
 
+Full Stack Decal Fall 2022 Final Project
+
 A website designd to help Berkeley Students find study groups at any time.
 
 Figma Design:
