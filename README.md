@@ -10,3 +10,6 @@ https://www.figma.com/file/tMU21jEN1MlKDjubuZ2kIF/full-stack-decal-final-project
 Brainstorming Document:
 https://docs.google.com/document/d/1a_oAgoa8EeKG_u9hAPfSbxv6ljCkZsfi7iZjOB-ktwM/edit
 
+Contributors: Jade Wang, Naomi Manuel, Matthew Nguyen, Manuel Munoz, Chi Nguyen.
+
+(This Repo is a copy of original)
